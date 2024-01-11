@@ -1,0 +1,16 @@
+2024-01-11T10:09:09+00:00 CRITICAL Uncaught Error: Undefined constant " " in C:\laragon\www\uomo_ecom\wp-content\themes\uomo\woocommerce.php:10
+Stack trace:
+#0 C:\laragon\www\uomo_ecom\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\uomo_ecom\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\uomo_ecom\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\uomo_ecom\wp-content\themes\uomo\woocommerce.php on line 10
+
+2024-01-11T10:09:16+00:00 CRITICAL Uncaught Error: Undefined constant " " in C:\laragon\www\uomo_ecom\wp-content\themes\uomo\woocommerce.php:10
+Stack trace:
+#0 C:\laragon\www\uomo_ecom\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\uomo_ecom\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\uomo_ecom\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\uomo_ecom\wp-content\themes\uomo\woocommerce.php on line 10
+

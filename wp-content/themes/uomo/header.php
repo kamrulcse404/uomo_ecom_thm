@@ -24,12 +24,12 @@
   <![endif]-->
 
   <!------------- Document Title -------------->
-  <title>Uomo | Modern & Multipurpose eCommerce HTML5 Template</title>
-<?php wp_head(); ?>
+  <!-- <title>Uomo | Modern & Multipurpose eCommerce HTML5 Template</title> -->
+  <?php wp_head(); ?>
 </head>
 
 
-<body <?php body_class(); ?> >
+<body <?php body_class(); ?>>
   <svg class="d-none">
     <symbol id="icon_nav" viewBox="0 0 25 18">
       <rect width="25" height="2" />
@@ -192,10 +192,11 @@
       </a>
 
       <div class="logo">
-        <a href="https://uomo-html.flexkitux.com/">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Uomo" class="logo__image d-block" />
+        <a href="<?php echo home_url(); ?>">
+          <img src="<?php global $uomo;
+                    echo $uomo['header-logo']['url'] ?>" alt="Uomo" class="logo__image d-block" />
         </a>
-      </div><!-- /.logo -->
+      </div>
 
       <a href="#" class="header-tools__item header-tools__cart js-open-aside" data-aside="cartDrawer">
         <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
