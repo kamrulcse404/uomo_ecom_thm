@@ -1,0 +1,16 @@
+2024-01-20T06:45:53+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in C:\laragon\www\uomo_ecom\wp-content\themes\uomo\woocommerce\single-product.php:1036
+Stack trace:
+#0 C:\laragon\www\uomo_ecom\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\uomo_ecom\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\uomo_ecom\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\uomo_ecom\wp-content\themes\uomo\woocommerce\single-product.php on line 1036
+
+2024-01-20T07:15:42+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\laragon\www\uomo_ecom\wp-content\themes\uomo\woocommerce\single-product.php:1182
+Stack trace:
+#0 C:\laragon\www\uomo_ecom\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\uomo_ecom\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\uomo_ecom\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\uomo_ecom\wp-content\themes\uomo\woocommerce\single-product.php on line 1182
+

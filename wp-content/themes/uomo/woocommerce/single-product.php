@@ -14,9 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Allura&amp;display=swap" rel="stylesheet" />
 
     <!--------------- Stylesheets --------------->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(  ) ?>.../css/plugins/swiper.min.css" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(  ) ?>.../css/plugins/jquery.fancybox.css" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(  ) ?>.../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>.../css/plugins/swiper.min.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>.../css/plugins/jquery.fancybox.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>.../css/style.css" type="text/css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -188,7 +188,7 @@
 
             <div class="logo">
                 <a href="https://uomo-html.flexkitux.com/">
-                    <img <?php echo get_template_directory_uri(  ) ?>/.../images/logo.png" alt="Uomo" class="logo__image d-block" />
+                    <img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="Uomo" class="logo__image d-block" />
                 </a>
             </div>
             <!-- /.logo -->
@@ -593,7 +593,7 @@
             <div class="header-desk header-desk_type_1">
                 <div class="logo">
                     <a href="https://uomo-html.flexkitux.com/">
-                        <img <?php echo get_template_directory_uri(  ) ?>.../images/logo.png" alt="Uomo" class="logo__image d-block" />
+                        <img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="Uomo" class="logo__image d-block" />
                     </a>
                 </div>
                 <!-- /.logo -->
@@ -791,7 +791,7 @@
 
                                     <div class="mega-menu__media col">
                                         <div class="position-relative">
-                                            <img loading="lazy" class="mega-menu__img" <?php echo get_template_directory_uri(  ) ?>.../images/mega-menu-item.jpg" alt="New Horizons" />
+                                            <img loading="lazy" class="mega-menu__img" src="<?php echo get_template_directory_uri() ?>/images/mega-menu-item.jpg" alt="New Horizons" />
                                             <div class="mega-menu__media-content content_abs content_left content_bottom">
                                                 <h3>NEW</h3>
                                                 <h3 class="mb-0">HORIZONS</h3>
@@ -963,39 +963,44 @@
                         <div class="product-single__image">
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
+
                                     <div class="swiper-slide product-single__image-item">
-                                        <img loading="lazy" class="h-auto" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_0.jpg" width="674" height="674" alt="" />
-                                        <a data-fancybox="gallery" href="/images/products/product_0.jpg" data-bs-toggle="tooltip" data-bs-placement="left" title="Zoom">
+                                        <img loading="lazy" class="h-auto" src="<?php echo get_template_directory_uri() ?>/images/products/product_0.jpg" width="674" height="674" alt="" />
+                                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri() ?>/images/products/product_0.jpg" data-bs-toggle="tooltip" data-bs-placement="left" title="Zoom">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <use href="#icon_zoom" />
                                             </svg>
                                         </a>
                                     </div>
+
                                     <div class="swiper-slide product-single__image-item">
-                                        <img loading="lazy" class="h-auto" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_0-1.jpg" width="674" height="674" alt="" />
-                                        <a data-fancybox="gallery" href="/images/products/product_0-1.jpg" data-bs-toggle="tooltip" data-bs-placement="left" title="Zoom">
+                                        <img loading="lazy" class="h-auto" src="<?php echo get_template_directory_uri() ?>/images/products/product_0-1.jpg" width="674" height="674" alt="" />
+                                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri() ?>/images/products/product_0-1.jpg" data-bs-toggle="tooltip" data-bs-placement="left" title="Zoom">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <use href="#icon_zoom" />
                                             </svg>
                                         </a>
                                     </div>
+
                                     <div class="swiper-slide product-single__image-item">
-                                        <img loading="lazy" class="h-auto" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_0-2.jpg" width="674" height="674" alt="" />
-                                        <a data-fancybox="gallery" href="/images/products/product_0-2.jpg" data-bs-toggle="tooltip" data-bs-placement="left" title="Zoom">
+                                        <img loading="lazy" class="h-auto" src=" <?php echo get_template_directory_uri() ?>/images/products/product_0-2.jpg" width="674" height="674" alt="" />
+                                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri() ?>/images/products/product_0-2.jpg" data-bs-toggle="tooltip" data-bs-placement="left" title="Zoom">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <use href="#icon_zoom" />
                                             </svg>
                                         </a>
                                     </div>
+
                                     <div class="swiper-slide product-single__image-item">
-                                        <img loading="lazy" class="h-auto" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_0-3.jpg" width="674" height="674" alt="" />
-                                        <a data-fancybox="gallery" href="/images/products/product_0-3.jpg" data-bs-toggle="tooltip" data-bs-placement="left" title="Zoom">
+                                        <img loading="lazy" class="h-auto" src="<?php echo get_template_directory_uri() ?>/images/products/product_0-3.jpg" width="674" height="674" alt="" />
+                                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri() ?>/images/products/product_0-3.jpg" data-bs-toggle="tooltip" data-bs-placement="left" title="Zoom">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <use href="#icon_zoom" />
                                             </svg>
                                         </a>
                                     </div>
                                 </div>
+
                                 <div class="swiper-button-prev">
                                     <svg width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg">
                                         <use href="#icon_prev_sm" />
@@ -1011,23 +1016,29 @@
                         <div class="product-single__thumbnail">
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
+
                                     <div class="swiper-slide product-single__image-item">
-                                        <img loading="lazy" class="h-auto" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_0.jpg" width="104" height="104" alt="" />
+                                        <img loading="lazy" class="h-auto" src="<?php echo get_template_directory_uri() ?>/images/products/product_0.jpg" width="104" height="104" alt="" />
                                     </div>
                                     <div class="swiper-slide product-single__image-item">
-                                        <img loading="lazy" class="h-auto" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_0-1.jpg" width="104" height="104" alt="" />
+                                        <img loading="lazy" class="h-auto" src="<?php echo get_template_directory_uri() ?>/images/products/product_0-1.jpg" width="104" height="104" alt="" />
                                     </div>
                                     <div class="swiper-slide product-single__image-item">
-                                        <img loading="lazy" class="h-auto" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_0-2.jpg" width="104" height="104" alt="" />
+                                        <img loading="lazy" class="h-auto" src="<?php echo get_template_directory_uri() ?>/images/products/product_0-2.jpg" width="104" height="104" alt="" />
                                     </div>
                                     <div class="swiper-slide product-single__image-item">
-                                        <img loading="lazy" class="h-auto" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_0-3.jpg" width="104" height="104" alt="" />
+                                        <img loading="lazy" class="h-auto" src="<?php echo get_template_directory_uri() ?>/images/products/product_0-3.jpg" width="104" height="104" alt="" />
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
+
+
                 <div class="col-lg-5">
                     <div class="d-flex justify-content-between mb-4 pb-md-2">
                         <div class="breadcrumb mb-0 d-none d-md-block flex-grow-1">
@@ -1048,7 +1059,7 @@
                         <!-- /.shop-acs -->
                     </div>
                     <h1 class="product-single__name">
-                        Lightweight Puffer Jacket With a Hood
+                        <?php the_title(); ?>
                     </h1>
                     <div class="product-single__rating">
                         <div class="reviews-group d-flex">
@@ -1070,17 +1081,26 @@
                         </div>
                         <span class="reviews-note text-lowercase text-secondary ms-1">8k+ reviews</span>
                     </div>
+
                     <div class="product-single__price">
-                        <span class="current-price">$449</span>
+                        <span class="current-price"><?php echo wc_price(get_post_meta(get_the_ID(), '_regular_price', true)); ?></span>
                     </div>
-                    <div class="product-single__short-desc">
+
+                    <!-- <div class="product-single__short-desc">
                         <p>
                             Phasellus sed volutpat orci. Fusce eget lore mauris vehicula
                             elementum gravida nec dui. Aenean aliquam varius ipsum, non
                             ultricies tellus sodales eu. Donec dignissim viverra nunc, ut
                             aliquet magna posuere eget.
                         </p>
+                    </div> -->
+
+                    <div class="product-single__short-desc">
+                        <p>
+                            <?php echo get_post_field('post_excerpt', get_the_ID()); ?>
+                        </p>
                     </div>
+
                     <form name="addtocart-form" method="post">
                         <div class="product-single__addtocart">
                             <div class="qty-control position-relative">
@@ -1094,6 +1114,8 @@
                             </button>
                         </div>
                     </form>
+
+
                     <div class="product-single__addtolinks">
                         <a href="#" class="menu-link menu-link_us-s add-to-wishlist"><svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <use href="#icon_heart" />
@@ -1123,25 +1145,69 @@
                                 </div>
                             </details>
                         </share-button>
-                        <script <?php echo get_template_directory_uri(  ) ?>.../js/details-disclosure.js" defer="defer"></script>
-                        <script <?php echo get_template_directory_uri(  ) ?>.../js/share.js" defer="defer"></script>
+                        <script src="<?php echo get_template_directory_uri() ?>/js/details-disclosure.js" defer="defer"></script>
+                        <script src="<?php echo get_template_directory_uri() ?>/js/share.js" defer="defer"></script>
                     </div>
                     <div class="product-single__meta-info">
                         <div class="meta-item">
                             <label>SKU:</label>
                             <span>N/A</span>
                         </div>
-                        <div class="meta-item">
+                        <!-- <div class="meta-item">
                             <label>Categories:</label>
                             <span>Casual & Urban Wear, Jackets, Men</span>
-                        </div>
+                        </div> -->
+
+
                         <div class="meta-item">
+                            <label>Categories:</label>
+                            <?php
+                            $categories = get_the_terms(get_the_ID(), 'product_cat');
+
+                            if ($categories && !is_wp_error($categories)) {
+                                $category_names = array();
+
+                                foreach ($categories as $category) {
+                                    $category_names[] = $category->name;
+                                }
+
+                                $category_list = implode(', ', $category_names);
+
+                                echo '<span>' . esc_html($category_list) . '</span>';
+                            }
+                            ?>
+                        </div>
+
+
+                        <!-- <div class="meta-item">
                             <label>Tags:</label>
                             <span>biker, black, bomber, leather</span>
+                        </div> -->
+
+
+                        <div class="meta-item">
+                            <label><?php esc_html_e('Tags:', 'uomo'); ?></label>
+                            <?php
+                            $product_tags = get_the_terms(get_the_ID(), 'product_tag');
+                            if ($product_tags && !is_wp_error($product_tags)) {
+                                $tag_names = array();
+                                foreach ($product_tags as $tag) {
+                                    $tag_names[] = $tag->name;
+                                }
+                                echo '<span>' . esc_html(implode(', ', $tag_names)) . '</span>';
+                            } else {
+                                echo '<span>' . esc_html__('No tags', 'uomo') . '</span>';
+                            }
+                            ?>
                         </div>
+
+
                     </div>
                 </div>
             </div>
+
+
+
             <div class="product-single__details-tab">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -1229,7 +1295,7 @@
                         <div class="product-single__reviews-list">
                             <div class="product-single__reviews-item">
                                 <div class="customer-avatar">
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/avatar.jpg" alt="" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/avatar.jpg" alt="" />
                                 </div>
                                 <div class="customer-review">
                                     <div class="customer-name">
@@ -1264,7 +1330,7 @@
                             </div>
                             <div class="product-single__reviews-item">
                                 <div class="customer-avatar">
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/avatar.jpg" alt="" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/avatar.jpg" alt="" />
                                 </div>
                                 <div class="customer-review">
                                     <div class="customer-name">
@@ -1395,11 +1461,12 @@
             }
           }'>
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide product-card">
+
+                        <!-- <div class="swiper-slide product-card">
                             <div class="pc__img-wrapper">
                                 <a href="product1_simple.html">
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_3.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_3-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_3.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_3-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
                                 </a>
                                 <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">
                                     Add To Cart
@@ -1426,8 +1493,8 @@
                         <div class="swiper-slide product-card">
                             <div class="pc__img-wrapper">
                                 <a href="product1_simple.html">
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_1-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_1-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
                                 </a>
                                 <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">
                                     Add To Cart
@@ -1474,8 +1541,8 @@
                         <div class="swiper-slide product-card">
                             <div class="pc__img-wrapper">
                                 <a href="product1_simple.html">
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_2-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_2-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
                                 </a>
                                 <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">
                                     Add To Cart
@@ -1502,8 +1569,8 @@
                         <div class="swiper-slide product-card">
                             <div class="pc__img-wrapper">
                                 <a href="product1_simple.html">
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_6.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_6-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_6.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_6-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
                                 </a>
                                 <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">
                                     Add To Cart
@@ -1530,8 +1597,8 @@
                         <div class="swiper-slide product-card">
                             <div class="pc__img-wrapper">
                                 <a href="product1_simple.html">
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_7.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_7-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_7.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_7-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
                                 </a>
                                 <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">
                                     Add To Cart
@@ -1558,8 +1625,8 @@
                         <div class="swiper-slide product-card">
                             <div class="pc__img-wrapper">
                                 <a href="product1_simple.html">
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_4.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_4-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_4.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_4-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
                                 </a>
                                 <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">
                                     Add To Cart
@@ -1587,8 +1654,8 @@
                         <div class="swiper-slide product-card">
                             <div class="pc__img-wrapper">
                                 <a href="product1_simple.html">
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_5.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_5-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_5.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_5-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
                                 </a>
                                 <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">
                                     Add To Cart
@@ -1615,8 +1682,8 @@
                         <div class="swiper-slide product-card">
                             <div class="pc__img-wrapper">
                                 <a href="product1_simple.html">
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_8.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
-                                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/products/product_8-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_8.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img" />
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/products/product_8-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second" />
                                 </a>
                                 <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">
                                     Add To Cart
@@ -1639,7 +1706,89 @@
                                     </svg>
                                 </button>
                             </div>
-                        </div>
+                        </div> -->
+
+
+
+                        <?php
+                        $product_id = get_the_ID();
+                        $product_categories = get_the_terms($product_id, 'product_cat');
+
+                        if ($product_categories && !is_wp_error($product_categories)) {
+                            $category_slugs = wp_list_pluck($product_categories, 'slug');
+
+                            $args = array(
+                                'post_type' => 'product',
+                                'posts_per_page' => -1,
+                                'tax_query' => array(
+                                    array(
+                                        'taxonomy' => 'product_cat',
+                                        'field' => 'slug',
+                                        'terms' => $category_slugs,
+                                        'operator' => 'IN',
+                                    ),
+                                ),
+                            );
+
+                            $query = new WP_Query($args);
+
+                            if ($query->have_posts()) {
+                                while ($query->have_posts()) {
+                                    $query->the_post();
+                                    $product_title = get_the_title();
+                                    $product_permalink = get_permalink();
+                                    $product_image = get_the_post_thumbnail_url($post->ID, 'full');
+                                    $product_categories = get_the_terms($post->ID, 'product_cat');
+                                    $product_price_old = get_post_meta($post->ID, 'old_price_meta_key', true);
+                                    $product_price_sale = get_post_meta($post->ID, 'sale_price_meta_key', true);
+                        ?>
+
+                                    <div class="swiper-slide product-card">
+                                        <div class="pc__img-wrapper">
+                                            <a href="<?php echo esc_url($product_permalink); ?>">
+                                                <img loading="lazy" src="<?php echo esc_url($product_image); ?>" width="330" height="400" alt="<?php echo esc_attr($product_title); ?>" class="pc__img" />
+                                            </a>
+                                            <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">
+                                                Add To Cart
+                                            </button>
+                                        </div>
+
+                                        <div class="pc__info position-relative">
+                                            <p class="pc__category">
+                                                <?php
+                                                if ($product_categories && !is_wp_error($product_categories)) {
+                                                    $category_names = wp_list_pluck($product_categories, 'name');
+                                                    echo esc_html(implode(', ', $category_names));
+                                                }
+                                                ?>
+                                            </p>
+                                            <h6 class="pc__title">
+                                                <a href="<?php echo esc_url($product_permalink); ?>"><?php echo esc_html($product_title); ?></a>
+                                            </h6>
+                                            <div class="product-card__price d-flex">
+                                                <span class="money price price-old"><?php echo esc_html($product_price_old); ?></span>
+                                                <span class="money price price-sale"><?php echo esc_html($product_price_sale); ?></span>
+                                            </div>
+
+                                            <button class="pc__btn-wl position-absolute top-0 end-0 bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
+                                                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <use href="#icon_heart" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+
+
+                        <?php
+                                }
+                                wp_reset_postdata();
+                            }
+                        }
+                        ?>
+
+
+
+
                     </div>
                     <!-- /.swiper-wrapper -->
                 </div>
@@ -1675,7 +1824,7 @@
                 <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
                     <div class="logo">
                         <a href="https://uomo-html.flexkitux.com/">
-                            <img <?php echo get_template_directory_uri(  ) ?>.../images/logo.png" alt="Uomo" class="logo__image d-block" />
+                            <img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="Uomo" class="logo__image d-block" />
                         </a>
                     </div>
                     <!-- /.logo -->
@@ -1813,7 +1962,7 @@
                     <div class="mt-4 pt-3">
                         <strong class="fw-medium">Secure payments</strong>
                         <p class="mt-2">
-                            <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/payment-options.png" alt="Acceptable payment gateways" />
+                            <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/payment-options.png" alt="Acceptable payment gateways" />
                         </p>
                     </div>
                 </div>
@@ -2254,7 +2403,7 @@
         <div class="aside-content cart-drawer-items-list">
             <div class="cart-drawer-item d-flex position-relative">
                 <div class="position-relative">
-                    <img loading="lazy" class="cart-drawer-item__img" <?php echo get_template_directory_uri(  ) ?>.../images/cart-item-1.jpg" />
+                    <img loading="lazy" class="cart-drawer-item__img" src="<?php echo get_template_directory_uri() ?>/images/cart-item-1.jpg" />
                 </div>
                 <div class="cart-drawer-item__info flex-grow-1">
                     <h6 class="cart-drawer-item__title fw-normal">Zessi Dresses</h6>
@@ -2279,7 +2428,7 @@
 
             <div class="cart-drawer-item d-flex position-relative">
                 <div class="position-relative">
-                    <img loading="lazy" class="cart-drawer-item__img" <?php echo get_template_directory_uri(  ) ?>.../images/cart-item-2.jpg" />
+                    <img loading="lazy" class="cart-drawer-item__img" src="<?php echo get_template_directory_uri() ?>/images/cart-item-2.jpg" />
                 </div>
                 <div class="cart-drawer-item__info flex-grow-1">
                     <h6 class="cart-drawer-item__title fw-normal">Kirby T-Shirt</h6>
@@ -2304,7 +2453,7 @@
 
             <div class="cart-drawer-item d-flex position-relative">
                 <div class="position-relative">
-                    <img loading="lazy" class="cart-drawer-item__img" <?php echo get_template_directory_uri(  ) ?>.../images/cart-item-3.jpg" />
+                    <img loading="lazy" class="cart-drawer-item__img" src="<?php echo get_template_directory_uri() ?>/images/cart-item-3.jpg" />
                 </div>
                 <div class="cart-drawer-item__info flex-grow-1">
                     <h6 class="cart-drawer-item__title fw-normal">Cableknit Shawl</h6>
@@ -2346,7 +2495,7 @@
         <div class="modal-dialog modal-fullscreen">
             <div class="sitemap d-flex">
                 <div class="w-50 d-none d-lg-block">
-                    <img loading="lazy" <?php echo get_template_directory_uri(  ) ?>.../images/nav-bg.jpg" alt="Site map" class="sitemap__bg" />
+                    <img loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/nav-bg.jpg" alt="Site map" class="sitemap__bg" />
                 </div>
                 <!-- /.sitemap__bg w-50 d-none d-lg-block -->
                 <div class="sitemap__links w-50 flex-grow-1">
@@ -2626,16 +2775,16 @@
     <!-- /.page-overlay -->
 
     <!----------- External JavaScripts ---------->
-    <script <?php echo get_template_directory_uri(  ) ?>.../js/plugins/jquery.min.js"></script>
-    <script <?php echo get_template_directory_uri(  ) ?>.../js/plugins/bootstrap.bundle.min.js"></script>
-    <script <?php echo get_template_directory_uri(  ) ?>.../js/plugins/bootstrap-slider.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/js/plugins/jquery.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/js/plugins/bootstrap-slider.min.js"></script>
 
-    <script <?php echo get_template_directory_uri(  ) ?>.../js/plugins/swiper.min.js"></script>
-    <script <?php echo get_template_directory_uri(  ) ?>.../js/plugins/countdown.js"></script>
-    <script <?php echo get_template_directory_uri(  ) ?>.../js/plugins/jquery.fancybox.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/js/plugins/swiper.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/js/plugins/countdown.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/js/plugins/jquery.fancybox.js"></script>
 
     <!-------------- Footer Scripts ------------->
-    <script <?php echo get_template_directory_uri(  ) ?>.../js/theme.js"></script>
+    <script src=" <?php echo get_template_directory_uri() ?>/js/theme.js"></script>
 </body>
 
 <!-- Mirrored from uomo-html.flexkitux.com/Demo1/product1_simple.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Dec 2023 06:37:53 GMT -->
